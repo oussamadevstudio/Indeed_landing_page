@@ -18,7 +18,7 @@ const Navbar = () => {
                     {navItem}
                 </ul>
 
-                <Button />
+                <Button text="Sign up" isHiddenOnPhones={true}/>
                 <Sidebarselector />
 
             </div>

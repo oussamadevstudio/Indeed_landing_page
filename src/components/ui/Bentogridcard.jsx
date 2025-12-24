@@ -1,11 +1,11 @@
 import clsx from 'clsx'
 
-const Bentogridcard = ({isSpan}) => {
+const Bentogridcard = ({isSpan, bgColor, ChildDiv}) => {
 
     return(
         <>
-            <div className={clsx("h-55 border-2 border-black", isSpan && "col-span-2")}>
-                Bentogridcard
+            <div className={clsx("rounded-2xl  h-55", isSpan && "col-span-2", bgColor)}>
+                {ChildDiv}
             
             </div>
             
