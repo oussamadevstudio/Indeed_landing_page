@@ -11,10 +11,10 @@ const Navbar = () => {
 
     return(
         <>
-            <div className="flex justify-between md:justify-around items-center z-0 fixed w-full h-20 bg-amber-300 ">
+            <div className="flex justify-between md:justify-evenly items-center z-0 fixed w-full h-20 bg-slate-50 ">
                 <Logo />
 
-                <ul className="hidden md:flex md:justify-between md:gap-4 ">
+                <ul className="hidden md:flex md:center md:gap-10 ">
                     {navItem}
                 </ul>
 

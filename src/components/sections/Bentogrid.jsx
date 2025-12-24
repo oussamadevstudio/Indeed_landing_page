@@ -30,7 +30,7 @@ const Bentogrid = () => {
 
     return(
         <>
-            <section className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-4 px-5 md:px-78 py-9 md:py-18 bg-green-200">
+            <section className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 gap-4 px-5 md:px-78 py-9 md:py-18 bg-white">
                 <Bentogridcard bgColor={"bg-green-50"} ChildDiv={div1}/>
                 <Bentogridcard bgColor={"bg-sky-50"} ChildDiv={div2}/>
                 <Bentogridcard bgColor={"bg-indigo-50"} ChildDiv={div3} isSpan={true}/>

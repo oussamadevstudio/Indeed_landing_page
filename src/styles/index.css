@@ -1,2 +1,27 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+h1, h2, h3, div, span{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p, a, button, input{
+    font-family: "Inter", sans-serif;
+    text-transform: none;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+h1{
+    font-size: 35px;   
+}
+
+h2{
+    font-size: 26px;   
+}
+
+h3{
+    font-size: 17px;   
+}

@@ -6,7 +6,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    label: "Company Reviews",
+    label: "Reviews",
     path: "/company-reviews",
   },
   {

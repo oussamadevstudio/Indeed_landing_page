@@ -5,7 +5,7 @@ const Cards = () => {
 
     return(
         <>
-        <section className="flex justify-center items-center md:h-120 px-5 md:px-78 py-9 md:py-18 bg-pink-200">
+        <section className="flex justify-center items-center md:h-120 px-5 md:px-78 py-9 md:py-18 bg-gradient-to-tr from-blue-200 via-blue-50 to-cyan-50">
 
             <div className="flex flex-col justify-center items-center gap-y-11 ">
 
