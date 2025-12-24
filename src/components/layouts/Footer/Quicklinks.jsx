@@ -32,17 +32,17 @@ const Quicklinks = () => {
 
                 <div className="border-gray-100 uppercase">
                     <h3 className="text-xs text-white">Explore Indeed</h3>
-                    <ul>{exploreIndeed}</ul>
+                    <ul className="text-gray-400">{exploreIndeed}</ul>
                 </div>
 
                 <div className="border-gray-100 uppercase">
                     <h3 className="text-xs text-transparent">abah</h3>
-                    <ul>{empty}</ul>
+                    <ul className="text-gray-400">{empty}</ul>
                 </div>
 
                 <div className="border-gray-100 uppercase">
                     <h3 className="text-xs text-white">More</h3>
-                    <ul>{more}</ul>
+                    <ul className="text-gray-400">{more}</ul>
                 </div>
                 
             </div>
