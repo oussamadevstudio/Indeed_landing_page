@@ -28,17 +28,20 @@ const Quicklinks = () => {
     return(
         <>
 
-             <div className="flex flex-col md:flex-row justify-around gap-2 border-2 border-black">
+             <div className="flex flex-col md:flex-row  justify-around gap-2 mt-14 ">
 
-                <div className="border-1 border-gray-100">
+                <div className="border-gray-100 uppercase">
+                    <h3 className="text-xs text-white">Explore Indeed</h3>
                     <ul>{exploreIndeed}</ul>
                 </div>
 
-                <div className="border-1 border-gray-100">
+                <div className="border-gray-100 uppercase">
+                    <h3 className="text-xs text-transparent">abah</h3>
                     <ul>{empty}</ul>
                 </div>
 
-                <div className="border-1 border-gray-100">
+                <div className="border-gray-100 uppercase">
+                    <h3 className="text-xs text-white">More</h3>
                     <ul>{more}</ul>
                 </div>
                 

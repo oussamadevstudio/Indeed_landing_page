@@ -1,3 +1,5 @@
+import { IoMdMailOpen } from "react-icons/io";
+
 
 
 const Footerbase = () => {
@@ -8,8 +10,8 @@ const Footerbase = () => {
 
                 <div className="flex flex-col md:flex-row md:justify-around border-green-400 border-1">
                     <div className="">
-                        <p>connect c</p>
-                        <h3>email</h3>
+                        <p>For any inquiry get connected with us</p>
+                        <div className="flex"><h3>hello@indeed.com</h3></div>
                     </div>
 
                     <div className="">
