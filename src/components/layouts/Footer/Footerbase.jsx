@@ -28,9 +28,9 @@ const Footerbase = () => {
                     </div>
                 </div>
 
-                <hr />
+                <hr className="text-gray-400/10"/>
 
-                <div className="flex flex-col md:flex-row md:justify-around mt-4">
+                <div className="flex flex-col md:flex-row md:justify-around gap-y-4 mt-4">
                     <div className="text-sm text-gray-400">Your Privacy Choices</div>
                     <div className="text-sm text-gray-400">© 2024 Indeed, Inc. All rights reserved</div>
                     <div className="text-sm text-gray-400">Accessibility at Indeed</div>

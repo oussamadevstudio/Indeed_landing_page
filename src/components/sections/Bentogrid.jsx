@@ -1,6 +1,5 @@
 import Bentogridcard from '../ui/Bentogridcard'
 import { TbMoneybag } from "react-icons/tb";
-import Button from '../ui/Button'
 import { BsGraphUpArrow } from "react-icons/bs";
 
 const Bentogrid = () => {
@@ -12,8 +11,8 @@ const Bentogrid = () => {
 
     const div2 = <div className="w-full h-full flex flex-col-reverse justify-center items-start gap-y-5 px-9">
                     <div className="w-full flex justify-end "><TbMoneybag /></div>
-                    <div className="flex justify-center items-center gap-x-4"><h2 className="text-6xl font-medium tracking-tight">$15.92 </h2> <Button text="per hour"/></div>
-                    <h3 className="text-base font-medium tracking-tight leading-[130%] capitalize">Average base salary</h3>
+                    <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-x-4"><h2 className="text-6xl font-medium tracking-tight">$15.92 </h2> <div className="w-16 h-5 rounded-3xl  bg-blue-900 text-gray-200 text-xs tracking-tight flex justify-center items-center">per hour</div></div>
+                    <h3 className="text-lg font-medium tracking-tight leading-[130%] capitalize">Average base salary</h3>
                     
                  </div>
 
