@@ -1,12 +1,21 @@
 import { IoMenuOutline } from "react-icons/io5";
+import Sidebar from '../layouts/Sidebar'
+import { useState } from 'react'
 
 
 const Sidebarselector = () => {
+    
+    const [isOpenSideBar, setIsOpenSideBar] = useState(false)
+
+    const sideBarToggler = () => {setIsOpenSideBar(!isOpenSideBar)}
+
 
     return(
         <>
-         <div className="md:hidden border border-black/20 rounded-md mr-5 p-1 bg-blue-900 text-3xl text-white"><IoMenuOutline /></div>
+         <button onClick={sideBarToggler} className="md:hidden border border-black/20 rounded-md p-1 bg-blue-900 text-3xl text-white"><IoMenuOutline /></button>
         
+        <aside>{isOpenSideBar && <Sidebar />}</aside>
+
         </>
     )
 }

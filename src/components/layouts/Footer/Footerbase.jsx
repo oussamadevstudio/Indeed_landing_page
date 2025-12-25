@@ -16,7 +16,7 @@ const Footerbase = () => {
                 <div className="flex flex-col md:flex-row md:justify-between gap-y-4 my-4">
                     <div className="flex flex-col justify-center items-start gap-y-1 text-white">
                         <p>For any inquiry get connected with us</p>
-                        <div className="flex items-center gap-x-2 text-2xl"><IoMdMailOpen /><h3 className="">hello@indeed.com</h3></div>
+                        <div className="flex items-center gap-x-2 text-2xl"><span className="text-5xl text-indigo-900/60"><IoMdMailOpen /></span><h3 className="">hello@indeed.com</h3></div>
                     </div>
 
                     <div className="flex items-center justify-start md:justify-center gap-x-2 text-2xl text-gray-400">
