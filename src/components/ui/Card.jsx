@@ -17,7 +17,7 @@ const Card = ({cardTitle, price, cat1, cat2, companyName, datePosted}) => {
                     </div>
                     
                     <div className="flex "><span className="rounded-4xl py-2 px-3 text-blue-800 bg-slate-100">{cat1}</span> <span className="rounded-4xl py-2 px-3 text-blue-800 bg-slate-100">{cat2}</span></div>
-                    <h3 className="my-4 ">{price}</h3>
+                    <h3 className="my-4">{price}</h3>
                 </div>
 
                 <hr className="mt-7 "/>

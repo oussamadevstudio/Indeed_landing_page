@@ -1,10 +1,10 @@
 import { SiPluscodes } from "react-icons/si";
 
-const Logo = () => {
+const Logo = ({color}) => {
 
     return(
         <>
-        <div className="flex items-center gap-x-2"><SiPluscodes /><span className="text-3xl text-extrabold bg-clip-text bg-gradient-to-r from-indigo-700 to-slate-700 text-transparent capitalize">Indeed</span></div>
+        <div className="flex items-center gap-x-2 ml-4"><span className={color}><SiPluscodes /></span> <span className="text-3xl text-extrabold bg-clip-text bg-gradient-to-r from-indigo-700 to-slate-700 text-transparent capitalize">Indeed</span></div>
         </>
     )
 }

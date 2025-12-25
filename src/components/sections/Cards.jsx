@@ -10,8 +10,8 @@ const Cards = () => {
             <div className="flex flex-col justify-center items-center gap-y-11 ">
 
                     <div className="w-full flex flex-col md:flex-row justify-center gap-y-3 md:justify-between items-center">
-                        <h2>Job openings in United States</h2>
-                        <Button text="View All " width="w-full md:w-auto "/>
+                        <h2 className="text-2xl font-bold leading-[130%] tracking-tight uppercase text-center">Job openings in United States</h2>
+                        <Button text="View All Front Desk Agent Jobs" width="w-full md:w-60 "/>
                     </div>
 
                     <div className="flex gap-y-4 md:gap-x-4 flex-col md:flex-row">

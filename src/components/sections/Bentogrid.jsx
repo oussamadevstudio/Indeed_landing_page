@@ -5,22 +5,22 @@ import { BsGraphUpArrow } from "react-icons/bs";
 
 const Bentogrid = () => {
 
-    const div1 = <div className="w-full h-full flex flex-col justify-center items-start gap-y-4 px-9">
-                    <h2>Front desk agent salary in United States</h2>
-                    <p>How much does a Front Desk Agent make in the United States?</p>
+    const div1 = <div className="w-full h-full flex flex-col justify-center items-start gap-y-5 px-9">
+                    <h2 className="font-bold text-2xl tracking-tight uppercase leading-[130%]">Front desk agent salary in United States</h2>
+                    <p className="text-[#535353]">How much does a Front Desk Agent make in the United States?</p>
                  </div>
 
-    const div2 = <div className="w-full h-full flex flex-col-reverse justify-center items-start gap-y-4 px-9">
+    const div2 = <div className="w-full h-full flex flex-col-reverse justify-center items-start gap-y-5 px-9">
                     <div className="w-full flex justify-end "><TbMoneybag /></div>
-                    <div className="flex justify-center items-center gap-x-4"><h2>$15.92 </h2> <Button text="per hour"/></div>
-                    <h3>Average base salary</h3>
+                    <div className="flex justify-center items-center gap-x-4"><h2 className="text-6xl font-medium tracking-tight">$15.92 </h2> <Button text="per hour"/></div>
+                    <h3 className="text-base font-medium tracking-tight leading-[130%] capitalize">Average base salary</h3>
                     
                  </div>
 
-    const div3 = <div className="w-full h-full flex justify-center items-center gap-y-4 px-9">
+    const div3 = <div className="w-full h-full flex justify-center items-center gap-y-5 px-9">
                     <div className=""> 
-                        <h2>Graphical presentation</h2>
-                        <p>The average salary for a front desk agent is $15.92 per hour in the United States. 80.2k salaries reported,</p>
+                        <h2 className="font-bold text-2xl tracking-tight uppercase leading-[130%]">Graphical presentation</h2>
+                        <p className="text-[#535353]">The average salary for a front desk agent is $15.92 per hour in the United States. 80.2k salaries reported,</p>
                     </div>
 
                     <div className="w-full flex flex-col justify-center items-center">

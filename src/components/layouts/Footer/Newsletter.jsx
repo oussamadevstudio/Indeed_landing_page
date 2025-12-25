@@ -7,7 +7,7 @@ const Newsletter = () => {
         <>
 
              <div className="flex flex-col items-start justify-center gap-y-4 pt-12 md:pt-12 ">
-                <Logo />
+                <Logo color="text-white"/>
                 <p className="text-white">Subscribe to our weekly newsletter</p>
                 <Input />
             </div>
