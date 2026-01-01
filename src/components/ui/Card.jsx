@@ -16,14 +16,14 @@ const Card = ({cardTitle, price, cat1, cat2, companyName, datePosted}) => {
                         </div>
                     </div>
                     
-                    <div className="flex gap-x-2 text-xs font-light tracking-tighter leading-[130%]"><span className="rounded-4xl py-2 px-3 text-blue-900 bg-slate-100">{cat1}</span> <span className="rounded-4xl py-2 px-3 text-blue-900 bg-slate-100">{cat2}</span></div>
+                    <div className="flex gap-x-2 text-xs font-light tracking-tighter leading-[130%]"><span className="rounded-4xl py-2 px-3 text-blue-900/70 bg-slate-100">{cat1}</span> <span className="rounded-4xl py-2 px-3 text-blue-900/70 bg-slate-100">{cat2}</span></div>
                     <h3 className="my-4 text-lg font-bold tracking-tighter ">{price}</h3>
                 </div>
 
                 <hr className="mt-7 text-gray-600/10"/>
                 
                 <div className="flex flex-col justify-center items-start gap-y-2 mt-7 mb-1">
-                    <h3 className="text-blue-900 text-base font-medium tracking-tighter leading-[130%]">{companyName}</h3>
+                    <h3 className="text-blue-900/70 text-base font-medium tracking-tighter leading-[130%]">{companyName}</h3>
                     <div className="flex items-center gap-1"><CgTime />{" "}<p>{datePosted}</p></div>
                 </div>
             
